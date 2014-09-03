@@ -5,7 +5,7 @@
 	<groupId>com.cjmalloy</groupId>
 	<artifactId>spring-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>spring-test</name>
 	<url>http://maven.apache.org</url>
@@ -23,12 +23,10 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-context</artifactId>
-				<version>4.0.6.RELEASE</version>
-			</dependency>
-		</dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.0.6.RELEASE</version>
+		</dependency>
 	</dependencies>
 </project>
